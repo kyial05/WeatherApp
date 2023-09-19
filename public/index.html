@@ -9,35 +9,57 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!-- 1. cd folder
+         2. git init
+         3. https
+         4. git add .
+         5. git commit -m "initial commit"
+         6. git push -u origin master 
+         7. npm install gh-pages --save-dev 
+         8. npm run build  
+         9. npm run deploy -->
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- 6. "homepage": "https://gitname.github.io/react-gh-pages", 
+          "predeploy": "npm run build",
+          "deploy": "gh-pages -d build", -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- git status
+           git add .gitignore; git add .src/logo.svg
+           git checkout -b todo_input - for new branch
+           git merge todo_input -->
+
+    <!--current https://api.openweathermap.org/data/2.5/weather?q=karakol&appid=66438398e5bd0e58da592a51b7a2dd7b
+      for week  https://api.openweathermap.org/data/2.5/forecast/daily?q=karakol&cnt=7&appid=66438398e5bd0e58da592a51b7a2dd7b
+
+      api.openweathermap.org/data/2.5/forecast?q=karakol&appid=66438398e5bd0e58da592a51b7a2dd7b -->
+
+    <!-- Karakol id:1528121 -->
+
+    <!-- 3. 14b1d41b024fd2ada837ee58c5ebcffd
+         4. 1135bd8bf0ee181fcc1891091063d278
+         5. d216e3aca5f332c0371d71e953d0d4a6
+         6. 26c24515990f4d73286f7d40851eb36f
+         7. 24ef820420bbf074e2fb3fb94cdbb78f
+         8. b577d8a1284daae75195f19cc5c0ba72
+         9. 3e478c502a7685dda8b36727af6fac53
+         10. 149f33c52391211d6e1b68436b28c5c4
+
+        4. 5849683c-9aa2-4363-a856-b02242413601 - yandex-->
+
+    <!-- https://api.weather.yandex.ru/v2/informers?lat=42.4907&lon=78.3936&[lang=ru_RU]X-Yandex-API-Key:5849683c-9aa2-4363-a856-b02242413601 -->
+
+    <!--api current weather https://api.openweathermap.org/data/2.5/weather?q=london&appid=66438398e5bd0e58da592a51b7a2dd7b
+
+        for week http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=a0038ec1ae332d55df197d3ae1cdc523
+
+        for week KG http://api.openweathermap.org/data/2.5/weather?q=karakol&cnt=7&APPID=4f61158917f25bc5f0e186c8e721c960
+
+        http://api.openweathermap.org/data/2.5/forecast/daily?q=karakol&cnt=7&appid=66438398e5bd0e58da592a51b7a2dd7b
+    
+        for 5 days by 3 hours http://api.openweathermap.org/data/2.5/forecast?q=karakol&appid=66438398e5bd0e58da592a51b7a2dd7b-->
   </body>
 </html>

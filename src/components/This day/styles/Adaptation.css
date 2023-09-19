@@ -1,0 +1,162 @@
+@media screen and (max-width: 400px) {
+  .container {
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: auto;
+    gap: 15px;
+  }
+  .weatherStateIco{
+    display: flex;
+    margin-left: 10px;
+  }
+  .TopPart {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 20px;
+    justify-items: center;
+  }
+  .mainThDI, 
+  .mainThD {
+    width: 400px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttons button {
+    width: max-content;
+  }
+  .popUp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    gap: 25px;
+  }
+  .popUopButtons {
+    left: 0;
+  }
+  .weekCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: max-content;
+    gap: 25px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: auto;
+    gap: 15px;
+  }
+  .weatherStateIco{
+    display: flex;
+    margin-left: 10px;
+  }
+  .TopPart {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 20px;
+    justify-items: center;
+  }
+  .mainThDI, .mainThD {
+    width: 400px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttons button {
+    width: max-content;
+  }
+  .popUp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    gap: 25px;
+  }
+  .popUopButtons {
+    left: 0;
+  }
+  .weekCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: max-content;
+    gap: 25px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .header {
+    display: flex;
+    /* flex-direction: column; */
+    justify-self: center;
+    width: auto;
+    gap: 15px;
+  }
+  .weatherStateIco{
+    display: flex;
+    margin-left: 10px;
+  }
+  .TopPart {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 20px;
+    justify-items: center;
+  }
+  .mainThDI, .mainThD {
+    width: 400px;
+  }
+  .buttons {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttons button {
+    width: max-content;
+  }
+  .popUp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    gap: 25px;
+  }
+  .popUopButtons {
+    left: 0;
+    margin-right: 25px;
+  }
+  .weekCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: max-content;
+    gap: 25px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+  /* body */
+  --body-background-dark: #0d1117;
+  --body-background-light: #fff;
+  --body-background-default: var(#fff);
+
+  /* components */
+  --components-background-dark: #4f4f4f;
+  --components-background-light: #fff;
+  --components-background-default: #fff;
+
+  /* card-background */
+  --card-background-dark: #2e3035;
+  --card-background-light: #d2e1f7;
+  --card-background-default: #d2e1f7;
+
+  /* text */
+  /* --text-color-dark: #fff;
+  --text-color-light: #000;
+  --text-color-default: #000; */
+
+  -webkit-text-stroke-color-dark: #fff;
+  -webkit-text-stroke-color-light: #000;
+  -webkit-text-stroke-color-default: #000;
+
+
+}
