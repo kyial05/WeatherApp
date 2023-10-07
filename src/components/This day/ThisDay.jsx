@@ -142,7 +142,7 @@ export const Weather = () => {
 
   const src = `https://api.openweathermap.org/data/2.5/weather?q=${
     sel || "Karakol"
-  }&appid=d216e3aca5f332c0371d71e953d0d4a6`;
+  }&appid=1135bd8bf0ee181fcc1891091063d278`;
 
   useEffect(() => {
     axios.get(src).then((data) => {
@@ -157,7 +157,7 @@ export const Weather = () => {
 
   const duringTD = `https://api.openweathermap.org/data/2.5/forecast?q=${
     sel || "Karakol"
-  }&appid=d216e3aca5f332c0371d71e953d0d4a6`;
+  }&appid=1135bd8bf0ee181fcc1891091063d278`;
 
   useEffect(() => {
     axios.get(duringTD).then((data) => {

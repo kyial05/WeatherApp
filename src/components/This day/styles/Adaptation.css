@@ -78,7 +78,8 @@
     grid-row-gap: 20px;
     justify-items: center;
   }
-  .mainThDI, .mainThD {
+  .mainThDI, 
+  .mainThD {
     width: 400px;
   }
   .buttons {
